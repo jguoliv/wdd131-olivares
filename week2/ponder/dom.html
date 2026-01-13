@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Tags & CSS</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(221, 221, 221);
+        margin: 0;
+    }
+
+    #content {
+        border: 20px;
+        border-color: solid black;
+        width: 700px;
+        padding: 60px;
+        margin: 50px auto;
+        text-align: center;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(180, 180, 180);
+        
+    }
+
+    p {
+        color: rgb(40, 95, 153);
+        font-size: 22px;
+    }
+
+    hr {
+        width: 550px;
+        height: 3px;
+        background: rgb(40, 95, 153);
+    }
+
+    #content img {
+        margin-top: 16px;
+        width: 350px;
+    }
+
+    #topics {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .list {
+        text-align: left;
+        list-style: none;
+    }
+</style>
+
+<body>
+    <div id="content">
+        <h1>HTML, CSS, and JS</h1>
+        <p>The foundational technologies that power websites and web applications</p>
+        <hr>
+        <img src="https://wddbyui.github.io/wdd131/images/trifecta.png" alt="JS, CSS, and HTML logos">
+        <div id="topics">
+            <h2>HyperText Markup Language</h2>
+            <ul class="list">
+                <li>Defines the structure and content of a web page.</li>
+                <li>Without HTML there's nothing for the browser to display.</li>
+            </ul>
+            <h2>Cascading Style Sheets</h2>
+            <ul class="list">
+                <li>Controls how the HTML elements look.</li>
+                <li>Without CSS pages look plain and unstyled.</li>
+            </ul>
+            <h2>JavaScript</h2>
+            <ul class="list">
+                <li>Adds interactivity and dynamic behavior.</li>
+                <li>Without JavaScript nothing on the page responds dynamically to user actions.</li>
+            </ul>
+            <label for="webdevlist">Choose One:</label>
+            <select name="code" id="webdevlist">
+                <option>Choose One:</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </select>     
+        </div>  
+        <script>
+            let selectElem = document.getElementById('webdevlist');
+            const headings = document.querySelectorAll('#topics h2')
+            selectElem.addEventListener('change', function(){
+                let codeValue = selectElem.value;
+                console.log(codeValue);
+                if (codeValue === "html") {
+                    headings[0].style.color = "rgb(49,133,23)";
+                } else if (codeValue === "css") {
+                    headings[1].style.color = "rgb(49, 133, 255)"
+                } else if (codeValue === "js") {
+                    headings[2].style.color = "rgb(255, 75, 48)"
+                }
+            });             
+        </script>                        
+    </div>
+</body>
+</html>
