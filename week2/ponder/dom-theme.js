@@ -1,4 +1,3 @@
-
 let selectElem = document.querySelector('#theme-select');
 let pageContent = document.querySelector('body');
 let logo = document.querySelector('#logo')
