@@ -42,22 +42,21 @@ nav a:hover {
     margin: 5px 0;
 }
 footer {
-    text-align: center;
+    text-align: left;
 }
 
 @media screen and (min-width: 700px) {
     main {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    section {
-        width: 35%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
 
     header nav {
         display: flex;
         justify-self: right;
     }
+
     nav a {
         display: flex;
     }
@@ -69,18 +68,16 @@ footer {
 
 @media screen and (min-width: 1024px) {
     main {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-    }
-    section {
-        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
     }
 
     header nav {
         display: flex;
         justify-self: right;
     }
+
     nav a {
         display: flex;
     }
@@ -89,4 +86,3 @@ footer {
     display: none;
     }
 }
-
