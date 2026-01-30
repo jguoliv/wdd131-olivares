@@ -11,11 +11,18 @@ function openModal(e) {
     const smallSrc = e.target.src;
     const largeSrc = smallSrc.replace('-sm', '-full');
 
+    modal.classList.remove('show');
+
     modalImage.src = largeSrc;
     modalImage.alt = e.target.alt;
 
+    modalImage.offsetHeight;
+
     modal.showModal();
+
+    modal.classList.add('show');
 }
+
 
 closeButton.addEventListener('click', () => {
     modal.close();
