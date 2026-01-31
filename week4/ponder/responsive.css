@@ -59,10 +59,6 @@ nav a:hover {
     margin: 5px 0;
 }
 
-footer {
-    text-align: left;
-}
-
 .bar1, .bar2, .bar3 {
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
@@ -77,6 +73,10 @@ footer {
 
 .change .bar3 {
     transform: translateY(-9px) rotate(45deg);
+}
+
+footer {
+    text-align: left;
 }
           
 @media screen and (min-width: 700px) {
