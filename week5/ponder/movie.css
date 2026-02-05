@@ -52,6 +52,39 @@ header, footer {
 }
 
 @media (min-width: 600px) {
-    
+
+.main-nav {
+    display: flex;
+    justify-self: center;
+}
+
+.movie {
+    display: grid;
+    grid-template-areas: 
+        "poster title"
+        "poster release"
+        "poster age"
+        "poster genre"
+        "poster rating";
+    grid-template-columns: 1fr 1fr;
+}
+.title {
+    grid-area: title;
+}
+.release {
+    grid-area: release;
+}
+.age {
+    grid-area: age;
+}
+.genre {
+    grid-area: genre;
+}
+.poster {
+    grid-area: poster;
+}
+.rating {
+    grid-area: rating;
+}
 
 }
