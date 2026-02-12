@@ -55,14 +55,22 @@ movies.forEach((movie) => {
   // article.id = `movie-${movie-id}`;
 
   article.innerHTML = `
-    <h2>${movie.title}<h2>
-    <img src="${movie.imgSrc}">
-    <p>${movie.date}</p>
-    <p class="age"><strong>Recommended Age:</strong> 10+</p>
-    <p class="genre"><strong>Genre:</strong> Action/Adventure</p>
-    <p class="rating"><strong>Rating:</strong> <span>⭐⭐⭐⭐⭐</span></p>
-    <p id='desc'>Miles Morales becomes the Spider-Man of his reality and crosses paths with others from the multiverse.</p>
+
+    <h2 class="title">${movie.title}</h2>
+    <img class="poster" src="${movie.imgSrc}" alt="${movie.imgAlt}">
+    <p class="release"><strong>Release Date:</strong> ${movie.date}</p>
+    <p><strong>Recommended Age:</strong> ${movie.ages}</p>
+    <p class="genre"><strong>Genre:</strong> ${movie.genre}</p>
+    <p class="rating"><strong>Rating:</strong> <span>${movie.stars}</span></p>
+    <p id='desc'>${movie.description}</p>
   `;
 
   moviesList.appendChild(article);
 });
+
+const allRatingElems = document.querySelectorAll('article.movie p span');
+allRatingElems.forEach((elem) => {
+    const rating = elem.innerText.length;
+    elem.setAttribute('aria-label', `${rating} out of 5 stars` );
+    console.log(elem);
+})
