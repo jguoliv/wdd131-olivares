@@ -46,3 +46,23 @@ const movies = [
         // Code for going through each movie and creating content for that movie
     
     });
+
+const moviesList = document.getElementById('movie-list');
+
+movies.forEach((movie) => {
+  const article = document.createElement('article');
+  article.classList.add('movie');
+  // article.id = `movie-${movie-id}`;
+
+  article.innerHTML = `
+    <h2>${movie.title}<h2>
+    <img src="${movie.imgSrc}">
+    <p>${movie.date}</p>
+    <p class="age"><strong>Recommended Age:</strong> 10+</p>
+    <p class="genre"><strong>Genre:</strong> Action/Adventure</p>
+    <p class="rating"><strong>Rating:</strong> <span>⭐⭐⭐⭐⭐</span></p>
+    <p id='desc'>Miles Morales becomes the Spider-Man of his reality and crosses paths with others from the multiverse.</p>
+  `;
+
+  moviesList.appendChild(article);
+});
