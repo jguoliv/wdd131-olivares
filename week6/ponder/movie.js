@@ -41,18 +41,11 @@ const movies = [
       }
     ];
 
-    movies.forEach(movie => {
-
-        // Code for going through each movie and creating content for that movie
-    
-    });
-
 const moviesList = document.getElementById('movie-list');
 
 movies.forEach((movie) => {
   const article = document.createElement('article');
   article.classList.add('movie');
-  // article.id = `movie-${movie-id}`;
 
   article.innerHTML = `
 
