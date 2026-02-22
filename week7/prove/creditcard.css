@@ -10,19 +10,22 @@ form {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc; /* Add a border to make it visually consistent */
+    border: 1px solid #ccc;
     border-radius: 4px;
   }
 
   button {
     width: 80px;
     height: 35px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border: 2px solid black;
     border-radius: 12px;
     cursor: pointer;
-    grid-row: 3;
+    grid-column: 1/4;
+    grid-row: 4;
+    margin-top: 15px;
+    justify-self: right;
   }
 
   .errors {
@@ -32,24 +35,27 @@ form {
   }
 
 .form-grid {
-    width: 390px;
-    height: 250px;
+    width: 490px;
+    justify-self: center;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 200px;
+    grid-template-columns: 110px 1fr 110px;
+    grid-template-rows:  50px 194px 50px 50px;
 }
 .card-front-grid {
     width: 350px;
     height: 204px;
     padding: 20px;
     background-color: rgb(211, 211, 211);
+    z-index: 1;
     border-radius: 12px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.50);
+    grid-column: 1/3;
+    grid-row: 1/3;
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 66px 1fr 1fr;
     column-gap: 20px;
 }
-
 
 #total {
     grid-column: 1/2;
@@ -74,7 +80,6 @@ form {
     grid-row: 3;
 }
 
-
 #cardExpiration{
     grid-column: 2/3;
     grid-row: 3;
@@ -96,11 +101,39 @@ form {
 }
 
 .card-back-grid {
-    width: 350px;
-    height: 204px;
-    padding: 20px;
-    background-color: rgb(255, 0, 81);
-    z-index: -1;
+    width: 390px;
+    height: 244px;
+    background-color: rgb(211, 211, 211);
+    z-index: 0;
     border-radius: 12px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.50);
+    grid-column: 2/4;
+    grid-row: 2/4;
     display: grid;
+    grid-template-columns: 1fr 110px;
+    grid-template-rows: 60px 1fr 50px;
+}
+
+#black-bar {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1;
+    margin-top: 20px;
+}
+
+#cardCVV {
+    width: 71px;
+    justify-self: right;
+    margin-right: 20px;
+    grid-column: 2;
+    grid-row: 2;
+    align-self: end;
+}
+
+#cvv {
+    width: 63px;
+    height: 39px;
+    margin: 0px;
 }
