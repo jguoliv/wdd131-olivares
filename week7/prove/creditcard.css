@@ -29,9 +29,10 @@ form {
   }
 
   .errors {
-    white-space: pre-line; /*needed for 2 errors to be on separate lines*/
+    white-space: pre-line;
     color: red;
     text-align: center;
+    margin-bottom: 10px;
   }
 
 .form-grid {
