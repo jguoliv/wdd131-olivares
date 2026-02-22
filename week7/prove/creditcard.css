@@ -88,7 +88,7 @@ form {
     column-gap: 4px;
 }
 
-#expiration {
+#expirationDate {
     grid-column: 1/3;
 }
 
