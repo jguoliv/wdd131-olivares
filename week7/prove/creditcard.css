@@ -36,7 +36,6 @@ form {
   }
 
 .form-grid {
-    width: 490px;
     justify-self: center;
     display: grid;
     grid-template-columns: 110px 1fr 110px;
