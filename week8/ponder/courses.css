@@ -1,0 +1,31 @@
+#courseName {
+    font-size: 20px;
+}
+
+#courseCode {
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    margin-bottom: 20px;
+}
+label[for="sectionNumber"]  {
+    justify-self: center;
+    
+}
+
+th:not(:first-child) {
+    padding: 0px 25px 0px 25px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+#sections {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(124, 188, 227);
+    border-color:rgb(61, 126, 167);
+    border-radius: 10px;
+}
