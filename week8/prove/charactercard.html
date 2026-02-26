@@ -22,20 +22,22 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
-    <div class="card">
-        <img src="snortleblat.webp" alt="Snortleblat" class="character-image"/>
-        <h1 class="name">Snortleblat</h1>
-        <div class="stats">
-            <p><strong>Class:</strong> Swamp Beast Diplomat</p>
-            <p><strong>Level:</strong> <span id="level">5</span></p>
-            <p><strong>Health:</strong> <span id="health">100</span></p>
+    <main>
+        <div class="card">
+            <img src="snortleblat.webp" alt="Snortleblat" class="character-image"/>
+            <h1 class="name">Snortleblat</h1>
+            <div class="stats">
+                <p><strong>Class:</strong> Swamp Beast Diplomat</p>
+                <p><strong>Level:</strong> <span id="level">5</span></p>
+                <p><strong>Health:</strong> <span id="health">100</span></p>
+            </div>
+            <div class="buttons">
+                <button id="attackBtn">Attacked</button>
+                <button id="levelBtn">Level Up</button>
+            </div>
+            <p id="message"></p>
+            <button id="playAgainBtn">Play Again</button>
         </div>
-        <div class="buttons">
-            <button id="attackBtn">Attacked</button>
-            <button id="levelBtn">Level Up</button>
-        </div>
-        <p id="message"></p>
-        <button id="playAgainBtn">Play Again</button>
-    </div>
+    </main>
 </body>
 </html>
