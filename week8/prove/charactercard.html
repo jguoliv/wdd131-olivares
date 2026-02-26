@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character card</title>
+    <link rel="stylesheet" href="charactercard.css"/>
+    <script src="charactercard.js" defer></script>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Snortleblat Character Card">
+    <meta property="og:description" content="View the stats and details of Snortleblat, the Swamp Beast Diplomat.">
+    <meta property="og:url" content="https://yourwebsite.com/character-card.html">
+    <meta property="og:image" content="https://yourwebsite.com/images/snortleblat-social.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Snortleblat Character Card">
+    <meta name="twitter:description" content="View the stats and details of Snortleblat, the Swamp Beast Diplomat.">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/snortleblat-social.png">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+</head>
+<body>
+    <div class="card">
+        <img src="snortleblat.webp" alt="Snortleblat" class="character-image"/>
+        <h1 class="name">Snortleblat</h1>
+        <div class="stats">
+            <p><strong>Class:</strong> Swamp Beast Diplomat</p>
+            <p><strong>Level:</strong> <span id="level">5</span></p>
+            <p><strong>Health:</strong> <span id="health">100</span></p>
+        </div>
+        <div class="buttons">
+            <button id="attackBtn">Attacked</button>
+            <button id="levelBtn">Level Up</button>
+        </div>
+        <p id="message"></p>
+        <button id="playAgainBtn">Play Again</button>
+    </div>
+</body>
+</html>
