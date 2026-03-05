@@ -32,9 +32,20 @@ display: flex;
 flex-direction: column;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
 
-.media-card {
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
 
+.gallery .media-card {
+display: flex;
+flex-direction: row;
+column-gap: 20px;
+margin-bottom: 40px;
+width: 48%;
+align-items: center;
 }
 }
