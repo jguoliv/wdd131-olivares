@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 8px;
+    outline: none;
+}
+
+#search::placeholder {
+    color: rgb(136, 136, 136);
+}
+
+#search-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+
+    border: 2px solid rgb(0, 89, 136);
+    border-radius: 8px;
+
+    background: rgb(5, 124, 187);
+    color: white;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background: rgb(0,140,215);
+}
+
+#hike-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hike-card {
+    border: 2px solid rgb(0, 89, 136);
+    border-radius: 8px;
+    padding: 15px;
+
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hike-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hike-content h2 {
+    margin: 0 0 10px 0;
+    color: rgb(0, 89, 136);
+}
+
+.hike-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.hike-tags button {
+    border: 1px solid rgb(153, 153, 153);
+    background: none;
+
+    padding: 4px 8px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hike-tags button:hover {
+    background: rgb(238, 238, 238);
+}
+
+.rating {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.icon-boot,
+.icon-empty {
+    margin-right: 2px;
+}
+
+@media (min-width: 600px) {
+
+    body {
+        max-width: 900px;
+        padding: 16px;
+    }
+
+    .search {
+        flex-direction: row;
+    }
+
+    #search {
+        flex: 1;
+        border-radius: 8px;
+    }
+
+    #search-button {
+        width: auto;
+        border-radius: 8px;
+        padding: 12px 20px;
+    }
+}
