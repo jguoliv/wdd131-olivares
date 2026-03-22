@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jose Ulloque – Site Plan</title>
+  <link type="text/css" rel="stylesheet" href="site-plan.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Jose Ulloque – Web Dev Portfolio</h1>
+    <h2>Jose Ulloque</h2>
+    <h2>WDD 131</h2>
+  </header>
+
+  <main>
+
+    <hr />
+    <h2>Overview</h2>
+
+    <h3>Purpose</h3>
+    <p>
+      This site is a personal web development portfolio that documents the projects
+      I built throughout WDD 131. Its purpose is to show my growth as a
+      front-end developert. It also serves as something I can share with
+      instructors or future employers to show what I have learned.
+    </p>
+
+    <h3>Audience</h3>
+    <p>
+      The main audience is my WDD 131 instructor, who needs to review my work and
+      verify that it meets the project requirements. A secondary audience is anyone
+      in web development who might be looking for entry-level candidates and wants to
+      see real examples of work.
+    </p>
+
+    <h3>Dynamic Elements</h3>
+
+    <p>
+      All project cards on the Projects page will be built by JavaScript. Here is a breakdown of every feature and how
+      it satisfies the course requirements:
+    </p>
+
+    <h4>Feature 1 — Random featured project (Home page)</h4>
+    <p>
+      When the home page loads, a function picks a random project from the array and
+      builds its card on the fly, dropping it into the left spot of the featured
+      section. Every time you refresh the page you get a different project. The card
+      on the right (about the course) stays the same always.
+    </p>
+
+    <h4>Feature 2 — Project cards with tag pills (Projects page)</h4>
+    <p>
+      A function takes the full list of projects, turns each one into an HTML card
+      using map(), and inserts all of them into the page at once. Each card shows a
+      thumbnail, title, short description, and colored tag pills for the week number,
+      assignment type, and topic. Clicking anywhere on a card (not just a button)
+      takes you to that project's sub-page. This works by putting a data attribute on
+      each card and having one event listener on the whole container watch for clicks.
+    </p>
+
+    <h4>Feature 3 — Live search bar (Projects page)</h4>
+    <p>
+      As the user types into the search bar, a function runs filter() on the projects
+      array and only keeps matches by title, week, type, or topic tag. The cards
+      update instantly without reloading the page. If nothing matches, a
+      "No results found" message appears instead. Clearing the bar brings all cards back.
+    </p>
+
+    <h4>Feature 4 — Stats bar (Projects page)</h4>
+    <p>
+      A small bar just above the search field shows the total number of projects and
+      a count for each assignment type. A function uses reduce() to calculate those
+      numbers from the projects array.
+    </p>
+
+
+    <hr />
+    <h2>Branding</h2>
+
+    <h3>Website Logo</h3>
+    <p>
+      The logo is a small custom image shown in the center of the navigation bar,
+      saved as images/logo.png. The name "Jose Ulloque" in the home page hero also
+      works as a brand element.
+    </p>
+    <img src="/portafolio/images/logo.png" alt="Jose Ulloque logo" width="48" />
+
+
+    <hr />
+    <h2>Style Guide</h2>
+
+    <h3>Color Palette</h3>
+    <p>
+      The palette uses black and dark gray backgrounds with a light gray for cards
+      and a single blue for buttons and links. This keeps things clean and lets the
+      project images stand out.
+    </p>
+
+    Palette reference:
+    <a href="https://coolors.co/000000-1d1d1f-306fdc-f5f5f7" target="_blank">
+      https://coolors.co/000000-1d1d1f-306fdc-f5f5f7
+    </a>
+
+    <table class="colors">
+      <tbody>
+        <tr>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Accent 1</th>
+          <th>Accent 2</th>
+        </tr>
+        <tr>
+          <td class="primary">#000000</td>
+          <td class="secondary">#1d1d1f</td>
+          <td class="accent1">#306fdc</td>
+          <td class="accent2">#f5f5f7</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Typography</h3>
+    <p>
+      The whole site uses Inter from Google Fonts. Different weights are used to
+      create visual hierarchy. Heavier for titles, lighter for body text.
+    </p>
+
+    <div class="type-preview">
+
+      <div class="type-row">
+        <p class="type-label">H1 &nbsp;&middot;&nbsp; Inter 600</p>
+        <p class="type-h1">Jose Ulloque</p>
+      </div>
+
+      <div class="type-row">
+        <p class="type-label">Paragraph &nbsp;&middot;&nbsp; Inter 300</p>
+        <p class="type-body">Jose Ulloque</p>
+      </div>
+
+    </div>
+
+    <h3>Normal paragraph example</h3>
+    <p>
+      Learning web development one project at a time. Each project represents a
+      step in understanding how the modern web is built, from writing semantic HTML
+      to building responsive CSS layouts and adding interactivity with JavaScript.
+    </p>
+
+    <h3>Colored paragraph example</h3>
+    <p class="colored">
+      This portfolio was built as the final project for WDD 131 at Brigham Young
+      University – Idaho. It shows the skills I learned during the course, including
+      mobile-first design, accessibility, and dynamic JavaScript.
+    </p>
+
+
+    <hr />
+    <h2>Content</h2>
+
+    <h3>Home page — index.html</h3>
+    <p><em>Text and images still to be added. Layout planned as follows:</em></p>
+    <ul>
+      <li>
+        Hero section (dark background) — two cards side by side: About Me card
+        with a portrait photo, my name, and a tagline; and a Projects card with
+        an overview image and a "Learn more" button.
+      </li>
+      <li>
+        Featured section — two cards: the left one is filled with a random project
+        every page load; the right one is always the static WDD 131 / Brother Keers card.
+      </li>
+    </ul>
+    <p>
+      Images needed: portrait photo, projects overview image, course overview image,
+      and one thumbnail per project.
+    </p>
+
+    <h3>Projects page — projects.html</h3>
+    <p><em>Text and images still to be added. Layout planned as follows:</em></p>
+    <ul>
+      <li>Dark hero banner with the page title.</li>
+      <li>Stats bar showing project counts by type.</li>
+      <li>Live search bar.</li>
+      <li>
+        Two-column card grid — each card has a thumbnail, title, short description,
+        and tag pills for week number, assignment type, and topic.
+      </li>
+    </ul>
+    <p>
+      Projects to include: Arepa Nation, Prophet Cards, Apostle Spotlight,
+      Favorite Devotionals, Halloween, Flags, Positioning, Gallery, Signup.
+      Week numbers, assignment types, and topic tags still to be confirmed.
+    </p>
+
+
+    <hr />
+    <h2>Wireframes</h2>
+    <p>
+      Wireframes show the desktop layout. On mobile, cards stack in a single column.
+    </p>
+
+    <h3>Home — index.html</h3>
+    <p>
+      Hero with two side-by-side cards. Featured section below with the random
+      project card on the left and the static course card on the right.
+    </p>
+    <img src="wireframe-home.png" alt="Home page wireframe" />
+
+    <h3>Projects — projects.html</h3>
+    <p>
+      Dark hero, then stats bar, then search bar, then the two-column project card grid.
+      Clicking anywhere on a card goes to that project's sub-page.
+    </p>
+    <img src="wireframe-projects.png" alt="Projects page wireframe" />
+
+  </main>
+
+</body>
+</html>

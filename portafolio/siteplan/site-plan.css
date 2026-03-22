@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Inter", sans-serif;
+    color: #1d1d1f;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background-color: #306fdc;
+    border: none;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    background-color: #1d1d1f;
+}
+
+header h1, header h2 {
+    color: #f5f5f7;
+}
+
+p {
+    color: #1d1d1f;
+    padding: 0.5em 1em;
+    line-height: 1.6;
+}
+
+p.colored {
+    background-color: #1d1d1f;
+    color: #f5f5f7;
+    border-radius: 6px;
+}
+
+ul {
+    color: #1d1d1f;
+    padding-left: 2.5em;
+    line-height: 1.8;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+.colors {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.colors th {
+    background-color: #999999;
+    padding: 8px;
+    color: #ffffff;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.primary   { background-color: #000000; color: #ffffff; }
+.secondary { background-color: #1d1d1f; color: #ffffff; }
+.accent1   { background-color: #306fdc; color: #ffffff; }
+.accent2   { background-color: #f5f5f7; color: #1d1d1f; border: 1px solid #dddddd; }
+
+.type-preview {
+    margin: 24px 0;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.type-row {
+    padding: 20px 28px 24px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.type-row:last-child {
+    border-bottom: none;
+}
+
+.type-label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+    padding: 0;
+    margin: 0 0 8px 0;
+}
+
+.type-h1 {
+    font-size: 52px;
+    font-weight: 600;
+    color: #1d1d1f;
+    padding: 0;
+    margin: 0;
+    line-height: 1.1;
+}
+
+
+.type-body {
+    font-size: 52px;
+    font-weight: 300;
+    color: #1d1d1f;
+    padding: 0;
+    margin: 0;
+    line-height: 1.1;
+}

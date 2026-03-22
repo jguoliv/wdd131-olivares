@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     font-family: "Inter";
     margin: 0;
     padding: 0;
@@ -48,7 +48,7 @@ nav {
 }
 
 nav a {
-  color: rgb(209, 209, 209);
+  color: #d1d1d1;
   text-decoration: none;
   font-size: 12px;
   font-weight: 300;
@@ -57,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 #hero {
@@ -78,7 +78,7 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 40px;
-    background-color: rgb(29, 29, 31);
+    background-color: #1d1d1f;
     z-index: 0;
 }
 
@@ -94,12 +94,12 @@ nav a:hover {
 
 #about-me-container {
     grid-column: 2;
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
 }
 
 #projects-container {
     grid-column: 4;
-    background-color: rgb(245, 245, 247);
+    background-color: #f5f5f7;
 }
 
 .hero-msg {
@@ -122,35 +122,35 @@ nav a:hover {
 }
 
 #about-me-msg h1 {
-    color: rgb(245, 245, 247);
+    color: #f5f5f7;
     font-weight: 600;
     font-size: 50px;
 }
 
 #about-me-msg h4 {
-    color: rgb(245, 245, 247);
+    color: #f5f5f7;
     font-weight: 300;
     padding-bottom: 15px;
     font-size: 18px;
 }
 
 #projects-msg h1 {
-    color: rgb(29, 29, 31);
+    color: #1d1d1f;
     font-weight: 600;
     font-size: 50px;
 }
 
 #projects-msg h4 {
-    color: rgb(29, 29, 31);
+    color: #1d1d1f;
     font-weight: 300;
     padding-bottom: 15px;
     font-size: 18px;
 }
 
 .learn {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
-    background-color: rgb(48, 111, 220);
+    background-color: #306fdc;
     font-size: 14px;
     font-weight: 300;
     padding: 10px 25px;
@@ -159,28 +159,28 @@ nav a:hover {
 }
 
 .learn:hover {
-    background-color: rgb(53, 117, 229);
+    background-color: #3575e5;
 }
 .projects-hero {
     position: relative;
     justify-items: center;
     padding: 50px 0;
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     margin-top: 40px;
     max-height: 730px;
 }
 
 .projects-hero #projects-container {
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     width: auto;
 }
 
 .projects-hero #projects-msg h1 {
-    color: rgb(245, 245, 247);
+    color: #f4f4f6;
 }
 
 .projects-hero #projects-msg h4 {
-    color: rgb(245, 245, 247);
+    color: #f5f5f7;
     margin-bottom: -15px;
 }
 
@@ -193,7 +193,7 @@ nav a:hover {
     justify-items: center;
     text-align: center;
     padding: 50px 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -218,13 +218,13 @@ nav a:hover {
     justify-items: center;
     text-align: center;
     padding: 50px 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .final-container {
-    background-color: rgb(245, 245, 247);
+    background-color: #f5f5f7;
     border-radius: 20px;
     padding: 40px 40px;
     display: grid;
@@ -266,22 +266,22 @@ nav a:hover {
 }
 
 .featured-msg h1 {
-    color: rgb(29, 29, 31);
+    color: #1d1d1f;
     font-weight: 600;
     font-size: 30px;
 }
 
 .featured-msg h4 {
-    color: rgb(29, 29, 31);
+    color: #1d1d1f;
     font-weight: 300;
     font-size: 16px;
     padding-bottom: 15px;
 }
 
 .small-learn {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
-    background-color: rgb(48, 111, 220);
+    background-color: #306fdc;
     font-size: 12px;
     font-weight: 300;
     padding: 10px 25px;
@@ -290,16 +290,13 @@ nav a:hover {
 }
 
 .small-learn:hover {
-    background-color: rgb(53, 117, 229);
+    background-color: #3575e5;
 }
 
 footer {
     text-align: center;
     padding: 10px;
     font-size: 12px;
-    color: rgb(100, 100, 100);
-    background-color: rgb(245, 245, 247);
-}
-
-@media screen and (max-width: 820px) {
+    color: #646464;
+    background-color: #f5f5f7;
 }
