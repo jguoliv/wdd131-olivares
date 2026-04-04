@@ -3,73 +3,58 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Portal Page</title>
+    <meta name="description" content="Jose Ulloque's web development portfolio — learning one project at a time." />
+    <title>Jose Ulloque | Web Developer</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="home-page">
     <header>
-        <nav class="nav-container">
+        <nav>
             <a href="index.html">Home</a>
-            <a id="logo_link" href="index.html">
+            <a href="index.html" class="logo-link">
                 <img class="logo" src="images/logo.png" alt="Jose Ulloque logo" />
             </a>
             <a href="projects.html">Projects</a>
         </nav>
     </header>
-    
-    <div id="hero">
+    <section class="hero">
         <div class="hero-bar"></div>
-
-        <div class="hero-container" id="about-me-container">
-            <section class="hero-msg" id="about-me-msg">
-                <h1 class="home-title">Jose Ulloque</h1>
-                <h4>Learning web development one project at a time.</h4>
-            </section>
-            <div class="hero-box">
-                <img id="about-me-img" src="images/portrait.png" alt="Professional portrait of Jose Ulloque" />
+        <div class="hero-card hero-card--about">
+            <div class="hero-content">
+                <h1>Jose Ulloque</h1>
+                <p class="hero-subtitle">Learning web development one project at a time.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/portrait.png" alt="Professional portrait of Jose Ulloque" />
             </div>
         </div>
-
-        <div class="hero-container" id="projects-container">
-            <section class="hero-msg" id="projects-msg">
-                <h1 class="home-title">Projects</h1>
-                <h4>Explore the assignments that helped me build confidence in HTML, CSS, and JavaScript.</h4>
-                <a class="learn" href="projects.html">Learn more</a>
-            </section>
-            <div class="hero-box">
-                <img id="projects_overview-img" src="images/projects-overview.png" alt="Computer showing a website project" />
+        <div class="hero-card hero-card--projects">
+            <div class="hero-content">
+                <h2>Projects</h2>
+                <p class="hero-subtitle">Explore the assignments that helped me build confidence in HTML, CSS, and JavaScript.</p>
+                <a class="button button--primary" href="projects.html">Learn more</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/projects-overview.png" alt="Computer showing a website project" />
             </div>
         </div>
-    </div>
-
-    <main id="featured">
-
-        <div class="featured-container" id="project1-container">
-            <section class="featured-msg">
-                <h1 class="featured-title">Arepa Nation</h1>
-                <h4>My very first website!</h4>
-                <a class="small-learn" href="wwr/index.html" target="_blank">Learn more</a>
-            </section>
-            <div class="featured-box">
-                <img id="project1-img" src="images/project1.png" alt="Computer showing a website project" />
+    </section>
+    <main class="featured-projects" aria-label="Featured projects">
+        <div id="random-project" role="region" aria-live="polite" aria-label="Random featured project"></div>
+        <article class="project-card">
+            <div class="project-content">
+                <h2>Take WDD131</h2>
+                <p>Join Brother Keers' class</p>
+                <a class="button button--small" href="https://www.byui.edu/directories/christopher-keers" target="_blank">Learn more</a>
             </div>
-        </div>
-
-        <div class="featured-container" id="project10-container">
-            <section class="featured-msg">
-                <h1 class="featured-title">Take WDD131</h1>
-                <h4>Join Brother Keers' class</h4>
-                <a class="small-learn" href="https://www.byui.edu/directories/christopher-keers" target="_blank">Learn more</a>
-            </section>
-            <div class="featured-box">
-                <img id="course" src="images/course_overview.png" alt="Course overview" />
+            <div class="project-image">
+                <img src="images/course_overview.png" alt="WDD131 course overview" />
             </div>
-        </div>
-
+        </article>
     </main>
-
     <footer>
         <p>Copyright © 2026 Jose Ulloque</p>
     </footer>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
