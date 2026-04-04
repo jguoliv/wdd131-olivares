@@ -47,7 +47,7 @@ export const projects = [
     {
         title: "Dark Mode Toggle",
         image: "images/prove-wk2.png",
-        description: "Added a dark and light mode selector to the Mission Statement page using JavaScript — my first time using DOM manipulation and event listeners.",
+        description: "Added a dark and light mode selector to the Mission Statement page using JavaScript. My first time using DOM manipulation and event listeners.",
         week: 2,
         type: "Prove",
         tags: ["JavaScript", "DOM", "Events"],
