@@ -15,7 +15,7 @@ function createProjectCard(project) {
                 </div>
             </div>
             <div class="project-image">
-                <img src="${project.image}" alt="${project.title} screenshot" />
+                <img src="${project.image}" alt="${project.title} screenshot" width="500" height="500" />
             </div>
         </article>
     `;

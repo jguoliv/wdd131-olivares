@@ -11,8 +11,8 @@
     <header>
         <nav>
             <a href="index.html">Home</a>
-            <a href="index.html" class="logo-link">
-                <img class="logo" src="images/logo.png" alt="Jose Ulloque logo" />
+            <a href="index.html" class="logo-link" aria-label="Home">
+                <img class="logo" src="images/logo.png" alt="Jose Ulloque logo" width="48" height="48" />
             </a>
             <a href="projects.html">Projects</a>
         </nav>
@@ -25,23 +25,17 @@
                 <p class="hero-subtitle">Check out the assignments I built in WDD 131.</p>
             </div>
             <div class="hero-image">
-                <img src="images/projects-overview-dark.png" alt="Computer showing a website project" />
+                <img src="images/projects-overview-dark.png" alt="Computer showing a website project" width="800" height="650" />
             </div>
         </div>
     </section>
     <div class="search-section">
-        <div class="stats-bar" role="status" aria-live="polite"></div>
+        <div class="stats-bar"></div>
         <div class="search-container">
-            <input 
-                type="text" 
-                id="project-search"
-                class="search-input" 
-                placeholder="Search by title, week, type, or topic..."
-                aria-label="Search projects by title, week, type, or topic"
-            />
+            <input type="text" class="search-input" placeholder="Search by title, week, type, or topic..." />
         </div>
     </div>
-    <main class="featured-projects" aria-label="All projects" role="region">
+    <main class="featured-projects" role="main">
     </main>
     <footer>
         <p>Copyright © 2026 Jose Ulloque</p>
