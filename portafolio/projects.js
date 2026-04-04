@@ -6,7 +6,7 @@ export const projects = [
         week: 1,
         type: "Ponder",
         tags: ["HTML", "CSS", "Meta Tags"],
-        link: "ponder-wk1a/ponder-wk1a.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week1/ponder/meta-css.html"
     },
     {
         title: "Variables and Constants",
@@ -15,7 +15,7 @@ export const projects = [
         week: 1,
         type: "Ponder",
         tags: ["JavaScript", "Variables", "Scope"],
-        link: "ponder-wk1b/ponder-wk1b.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week1/ponder/variables-constants.html"
     },
     {
         title: "Mission Statement",
@@ -24,7 +24,7 @@ export const projects = [
         week: 1,
         type: "Prove",
         tags: ["HTML", "CSS", "Semantic HTML"],
-        link: "mission/mission.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week1/prove/mission/index.html"
     },
     {
         title: "DOM Basics",
@@ -33,7 +33,7 @@ export const projects = [
         week: 2,
         type: "Ponder",
         tags: ["DOM", "querySelector", "Events"],
-        link: "ponder-wk2a/ponder-wk2a.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week2/ponder/dom.html"
     },
     {
         title: "Computational Thinking",
@@ -42,7 +42,7 @@ export const projects = [
         week: 2,
         type: "Ponder",
         tags: ["JavaScript", "Conditionals", "DOM"],
-        link: "ponder-wk2b/ponder-wk2b.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week2/ponder/dom-theme.html"
     },
     {
         title: "Dark Mode Toggle",
@@ -51,7 +51,7 @@ export const projects = [
         week: 2,
         type: "Prove",
         tags: ["JavaScript", "DOM", "Events"],
-        link: "dark-mode/dark-mode.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week2/prove/mission/index.html"
     },
     {
         title: "Responsive Design",
@@ -60,7 +60,7 @@ export const projects = [
         week: 3,
         type: "Ponder",
         tags: ["Media Queries", "Mobile-First"],
-        link: "ponder-wk3/ponder-wk3.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week3/ponder/responsive.html"
     },
     {
         title: "Cool Pics Part 1",
@@ -69,7 +69,7 @@ export const projects = [
         week: 3,
         type: "Prove",
         tags: ["Responsive Design", "Media Queries", "CSS Grid"],
-        link: "cool-pics/cool-pics.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week3/prove/coolpics.html"
     },
     {
         title: "Responsive Menu",
@@ -78,7 +78,7 @@ export const projects = [
         week: 4,
         type: "Ponder",
         tags: ["JavaScript", "classList", "CSS Transforms"],
-        link: "ponder-wk4a/ponder-wk4a.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week4/ponder/responsive.html"
     },
     {
         title: "Gallery with Modals",
@@ -87,7 +87,7 @@ export const projects = [
         week: 4,
         type: "Ponder",
         tags: ["JavaScript", "Modals", "CSS Grid"],
-        link: "ponder-wk4b/ponder-wk4b.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week4/ponder/modal.html"
     },
     {
         title: "Cool Pics Part 2",
@@ -96,7 +96,7 @@ export const projects = [
         week: 4,
         type: "Prove",
         tags: ["JavaScript", "Modals", "Events"],
-        link: "cool-pics-2/cool-pics-2.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week4/prove/coolpics.html"
     },
     {
         title: "Accessibility & Design",
@@ -105,7 +105,7 @@ export const projects = [
         week: 5,
         type: "Ponder",
         tags: ["Accessibility", "ARIA", "Design"],
-        link: "ponder-wk5/ponder-wk5.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week5/ponder/movie.html"
     },
     {
         title: "Book Blog Part 1",
@@ -114,7 +114,7 @@ export const projects = [
         week: 5,
         type: "Prove",
         tags: ["CSS Grid", "Accessibility", "Design"],
-        link: "book-blog/book-blog.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week5/prove/blog.html"
     },
     {
         title: "Array Methods",
@@ -123,7 +123,7 @@ export const projects = [
         week: 6,
         type: "Ponder",
         tags: ["Arrays", "map()", "filter()", "reduce()"],
-        link: "ponder-wk6a/ponder-wk6a.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week6/ponder/arrays.html"
     },
     {
         title: "Dynamic Content",
@@ -132,7 +132,7 @@ export const projects = [
         week: 6,
         type: "Ponder",
         tags: ["JavaScript", "forEach", "Template Literals"],
-        link: "ponder-wk6b/ponder-wk6b.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week6/ponder/movie.html"
     },
     {
         title: "Book Blog Part 2",
@@ -141,7 +141,7 @@ export const projects = [
         week: 6,
         type: "Prove",
         tags: ["JavaScript", "Arrays", "Objects", "map()"],
-        link: "book-blog-2/book-blog-2.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week6/prove/blog.html"
     },
     {
         title: "Checkout Form",
@@ -150,7 +150,7 @@ export const projects = [
         week: 7,
         type: "Ponder",
         tags: ["Forms", "Validation", "ARIA"],
-        link: "ponder-wk7/ponder-wk7.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week7/ponder/form.html"
     },
     {
         title: "Credit Card Form",
@@ -159,7 +159,7 @@ export const projects = [
         week: 7,
         type: "Prove",
         tags: ["Forms", "Validation", "CSS Grid"],
-        link: "credit-card/credit-card.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week7/prove/creditcard.html"
     },
     {
         title: "Course Enrollment",
@@ -168,7 +168,7 @@ export const projects = [
         week: 8,
         type: "Ponder",
         tags: ["Objects", "Methods", "DOM"],
-        link: "ponder-wk8/ponder-wk8.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week8/ponder/courses.html"
     },
     {
         title: "Character Card",
@@ -177,7 +177,7 @@ export const projects = [
         week: 8,
         type: "Prove",
         tags: ["Objects", "Methods", "DOM"],
-        link: "character-card/character-card.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week8/prove/charactercard.html"
     },
     {
         title: "Flexbox Layout",
@@ -186,7 +186,7 @@ export const projects = [
         week: 9,
         type: "Ponder",
         tags: ["Flexbox", "Responsive Design"],
-        link: "ponder-wk9/ponder-wk9.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week9/ponder/flexbox.html"
     },
     {
         title: "Recipe Book Part 1",
@@ -195,7 +195,7 @@ export const projects = [
         week: 9,
         type: "Prove",
         tags: ["Flexbox", "Meta Tags", "Responsive Design"],
-        link: "recipe-book/recipe-book.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week9/prove/recipes.html"
     },
     {
         title: "Filtering & Sorting",
@@ -204,7 +204,7 @@ export const projects = [
         week: 10,
         type: "Ponder",
         tags: ["JavaScript", "filter()", "sort()"],
-        link: "ponder-wk10/ponder-wk10.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week10/ponder/sortfilter.html"
     },
     {
         title: "Recipe Book Part 2",
@@ -213,6 +213,6 @@ export const projects = [
         week: 10,
         type: "Prove",
         tags: ["JavaScript", "filter()", "sort()"],
-        link: "recipe-book-2/recipe-book-2.html"
+        link: "https://jguoliv.github.io/wdd131-olivares/week10/prove/recipes.html"
     }
 ];
